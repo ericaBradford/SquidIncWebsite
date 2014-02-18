@@ -140,11 +140,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Bootstrap\bootstrap-responsive.css" />
-    <Content Include="Content\Bootstrap\bootstrap-responsive.min.css" />
-    <Content Include="Content\Bootstrap\bootstrap.css" />
+    <Content Include="Content\css\bootstrap-responsive.css" />
+    <Content Include="Content\css\bootstrap-responsive.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\js\bootstrap.js" />
-    <Content Include="Content\Bootstrap\bootstrap.min.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="Content\img\glyphicons-halflings-white.png" />
     <Content Include="Content\img\glyphicons-halflings.png" />
@@ -240,6 +240,7 @@
     <Content Include="Views\InfiniteInk\Index.cshtml" />
     <Content Include="Views\Investors\Index.cshtml" />
     <Content Include="Views\ComingSoon\Index.cshtml" />
+    <Content Include="Views\Home\Error.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

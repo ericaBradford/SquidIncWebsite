@@ -14,5 +14,10 @@ namespace ClericoDezign_SquidInc.Controllers
             return View();
         }
 
+        public ActionResult Error(string errorMessage = "")
+        {
+            return View("Error", (object)errorMessage);
+        }
+
     }
 }
