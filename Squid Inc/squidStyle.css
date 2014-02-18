@@ -1,0 +1,47 @@
+a, a:link, a:visited { text-decoration: none; }
+body
+{
+	background-color:#298851;
+}
+nav
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+	float: left;
+	color: #298851;
+	background-color:white;
+	margin-right: 20px;
+}
+nav ul
+{
+	list-style-type: none;
+	margin-left: 0; 
+}
+nav a
+{
+	display:block;
+	margin: 10px;
+	margin-left:20px;
+	margin-right:20px;
+	background-color:white;
+	width: 150px;
+	height:50px;
+	padding-top: 25px;
+	font-size: 28px;
+	color: #298851;
+}
+.SquidBody
+{
+	color:white;
+	width: 600px;
+	margin-left: 200px;
+}
+.SquidBody h1
+{
+	font-size: 40px;
+	margin: 10px;
+}
+
