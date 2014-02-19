@@ -13,11 +13,7 @@ namespace ClericoDezign_SquidInc
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                name: "CatchExtra",
-                url: "{controller}/{action}/{id}/{*catchall}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-                );
+
 
             routes.MapRoute(
                 name: "Default",
@@ -26,10 +22,16 @@ namespace ClericoDezign_SquidInc
             );
 
             routes.MapRoute(
-                name: "404-PageNotFound",
-                url: "{*catchall}",
-                defaults: new { controller = "Home", action = "Error", id = UrlParameter.Optional }
-    );
+              name: "404-PageNotFound",
+              url: "{*catchall}",
+              defaults: new { controller = "Home", action = "Error", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
+              name: "CatchExtra",
+              url: "{controller}/{action}/{id}/{*catchall}",
+              defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+              );
         }
     }
 }

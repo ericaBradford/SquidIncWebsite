@@ -19,14 +19,19 @@ namespace ClericoDezign_SquidInc.Controllers
             return View("Error", (object)errorMessage);
         }
 
-        public void PageNotFound()
+        public ActionResult PageNotFound()
         {
-            RedirectToAction("Error", "Page Not Found");
+            return RedirectToAction("Error", "Page Not Found");
         }
 
         public ActionResult TestError()
         {
             return Error();
+        }
+
+        public ActionResult Test404()
+        {
+            return Redirect("PageNotFound");
         }
 
     }
