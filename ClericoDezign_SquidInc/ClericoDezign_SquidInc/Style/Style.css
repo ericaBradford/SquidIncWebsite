@@ -34,6 +34,32 @@ nav a
 	font-size: 28px;
 	color: #1A4056;
 }
+
+nav a:hover
+{
+	display:block;
+	margin: 10px;
+	margin-left:20px;
+	margin-right:20px;
+	background-color:#1A4056; 
+	height:50px;
+	padding-top: 25px;
+	font-size: 28px;
+	color: #5E9DBC;
+}
+
+nav a:active {
+    display:block;
+	margin: 10px;
+	margin-left:20px;
+	margin-right:20px;
+	background-color:#1A4056; 
+	height:50px;
+	padding-top: 25px;
+	font-size: 28px;
+	color: #5E9DBC;
+}
+
 .logoPlace 
 {
     
