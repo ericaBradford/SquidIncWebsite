@@ -21,6 +21,7 @@ nav ul
 	margin-left: 0; 
     padding-left: 0;
 }
+
 nav a
 {
 	display:block;
@@ -33,17 +34,41 @@ nav a
 	font-size: 28px;
 	color: #1A4056;
 }
-.slideShow
+
+nav a:hover
 {
-    height: 400px;
-    width: 900px;
-    background-color: #808080;
+	display:block;
+	margin: 10px;
+	margin-left:20px;
+	margin-right:20px;
+	background-color:#1A4056; 
+	height:50px;
+	padding-top: 25px;
+	font-size: 28px;
+	color: #5E9DBC;
+}
+
+nav a:active {
+    display:block;
+	margin: 10px;
+	margin-left:20px;
+	margin-right:20px;
+	background-color:#1A4056; 
+	height:50px;
+	padding-top: 25px;
+	font-size: 28px;
+	color: #5E9DBC;
+}
+
+.logoPlace 
+{
+    
 }
 .SquidBody
 {
 	color:white;
 	width: 600px;
-	margin-left: 300px;
+	margin-left: 200px;
 }
 .SquidBody h1
 {
