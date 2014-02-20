@@ -9,7 +9,7 @@ nav
 	font-weight: 300;
 	margin: 0 auto;
 	text-align: center;
-	width: 200px;
+	width: 300px;
 	float: left;
 	color: #298851;
 	background-color:white;
@@ -21,18 +21,22 @@ nav ul
 	margin-left: 0; 
     padding-left: 0;
 }
+
 nav a
 {
 	display:block;
 	margin: 10px;
 	margin-left:20px;
 	margin-right:20px;
-	background-color:white;
-	width: 150px;
+	background-color:#5E9DBC;
 	height:50px;
 	padding-top: 25px;
 	font-size: 28px;
-	color: #298851;
+	color: #1A4056;
+}
+.logoPlace 
+{
+    
 }
 .SquidBody
 {
