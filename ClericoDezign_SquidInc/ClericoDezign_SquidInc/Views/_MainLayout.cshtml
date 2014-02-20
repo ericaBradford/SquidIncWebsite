@@ -10,9 +10,28 @@
     <link rel="stylesheet" type="text/css" href="~/Style/Style.css" />
 </head>
 <body>
+
+    <nav>
+	<div class="logoPlace">
+        <img src="~/Content/img/logo_home.png" />
+	</div>
+	<ul class="nav-stacked">
+		<li>@Html.ActionLink("Home", "Index", "Home")</li>
+		<li>@Html.ActionLink("About Us", "Index", "AboutUs")</li>
+		<li>@Html.ActionLink("Infinite Ink", "Index", "InfiniteInk")</li>
+		<li>@Html.ActionLink("Coming Soon", "Index", "ComingSoon")</li>
+		<li>@Html.ActionLink("Shop", "Index", "Shop")</li>
+		<li>@Html.ActionLink("Investors", "Index", "Investors")</li>
+		<li>@Html.ActionLink("Contact Us", "Index", "Contact")</li>
+	</ul>
+</nav>
     @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
+
+    	<footer>
+	2014 Squid Inc.	@Html.ActionLink("Contact Us", "Index", "Contact") | <a href="">privacy</a> | <a href="">social</a>
+	</footer>
 </body>
 </html>
