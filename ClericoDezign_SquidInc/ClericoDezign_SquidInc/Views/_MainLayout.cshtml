@@ -13,7 +13,7 @@
 
     <nav>
 	<div class="logoPlace">
-        <img src="~/Content/img/logo_home.png" />
+        @RenderSection("customLogo")
 	</div>
 	<ul class="nav-stacked">
 		<li>@Html.ActionLink("Home", "Index", "Home")</li>
