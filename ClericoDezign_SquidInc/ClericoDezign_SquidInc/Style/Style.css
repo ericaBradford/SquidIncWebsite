@@ -21,7 +21,6 @@ nav ul
 	margin-left: 0; 
     padding-left: 0;
 }
-
 nav a
 {
 	display:block;
@@ -34,15 +33,17 @@ nav a
 	font-size: 28px;
 	color: #1A4056;
 }
-.logoPlace 
+.slideShow
 {
-    
+    height: 400px;
+    width: 900px;
+    background-color: #808080;
 }
 .SquidBody
 {
 	color:white;
 	width: 600px;
-	margin-left: 200px;
+	margin-left: 300px;
 }
 .SquidBody h1
 {
