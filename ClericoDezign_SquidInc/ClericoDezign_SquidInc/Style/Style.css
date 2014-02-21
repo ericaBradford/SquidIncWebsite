@@ -33,6 +33,7 @@ nav a
 	padding-top: 25px;
 	font-size: 28px;
 	color: #1A4056;
+    border: 10px solid #5E9DBC;
 }
 
 nav a:hover
@@ -46,6 +47,7 @@ nav a:hover
 	padding-top: 25px;
 	font-size: 28px;
 	color: #5E9DBC;
+    border: 10px solid #1A4056;
 }
 
 nav a:active {
@@ -58,6 +60,7 @@ nav a:active {
 	padding-top: 25px;
 	font-size: 28px;
 	color: #5E9DBC;
+    border: 10px solid #1A4056;
 }
 
 .logoPlace 
@@ -67,12 +70,46 @@ nav a:active {
 .SquidBody
 {
 	color:white;
-	width: 600px;
-	margin-left: 200px;
+	margin-left: 320px;
 }
 .SquidBody h1
 {
 	font-size: 40px;
 	margin: 10px;
+}
+.slideShow
+{
+    height: 400px;
+    width: 900px;
+    background-color: #808080;
+}
+.blot1 
+{
+    position: absolute;
+    left: 350px;
+    top: 425px;
+    width: 200px;
+    height: 200px;
+    background-color: #0026ff;
+}
+
+.blot2 
+{
+    position: absolute;
+    left: 1000px;
+    top: 550px;
+    width: 300px;
+    height: 300px;
+    background-color: #0026ff;
+}
+
+.spacing 
+{
+    height: 300px;
+}
+.linkStyle
+{
+    border-radius: 20px;
+    border-bottom-left-radius: 60px;
 }
 

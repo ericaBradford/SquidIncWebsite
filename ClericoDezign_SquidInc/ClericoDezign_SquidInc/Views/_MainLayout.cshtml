@@ -16,13 +16,13 @@
         @RenderSection("customLogo")
 	</div>
 	<ul class="nav-stacked">
-		<li>@Html.ActionLink("Home", "Index", "Home")</li>
-		<li>@Html.ActionLink("About Us", "Index", "AboutUs")</li>
-		<li>@Html.ActionLink("Infinite Ink", "Index", "InfiniteInk")</li>
-		<li>@Html.ActionLink("Coming Soon", "Index", "ComingSoon")</li>
-		<li>@Html.ActionLink("Shop", "Index", "Shop")</li>
-		<li>@Html.ActionLink("Investors", "Index", "Investors")</li>
-		<li>@Html.ActionLink("Contact Us", "Index", "Contact")</li>
+		<li>@Html.ActionLink("Home", "Index", "Home", new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("About Us", "Index", "AboutUs", new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Infinite Ink", "Index", "InfiniteInk",new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Coming Soon", "Index", "ComingSoon", new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Shop", "Index", "Shop", new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Investors", "Index", "Investors", new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Contact Us", "Index", "Contact", new { @class = "linkStyle" })</li>
 	</ul>
 </nav>
     @RenderBody()
