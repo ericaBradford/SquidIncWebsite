@@ -10,48 +10,52 @@
 	@Scripts.Render("~/bundles/modernizr")
 	<link rel="stylesheet" type="text/css" href="~/Style/Style.css" />
 </head>
-<body>
+	<body>
 
-	<nav>
-	<div class="logoPlace">
-		@RenderSection("customLogo")
-	</div>
-	<ul class="nav-stacked">
-		<li>@Html.ActionLink("Home", "Index", "Home", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("Products", "Index", "Product", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("Comparisons", "Index", "Comparisons", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("Shop", "Index", "Shop", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("Invest", "Index", "Investors", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("About Us", "Index", "AboutUs", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("Coming Soon", "Index", "ComingSoon", new { }, new { @class = "linkStyle" })</li>
-	</ul>
-</nav>
-	<div id="outlineBox">
+		<nav>
+			<div class="logoPlace">
+				@RenderSection("customLogo")
+			</div>
+			<ul class="nav-stacked">
+				<li>@Html.ActionLink("Home", "Index", "Home", new { }, new { @class = "linkStyle" })</li>
+				<li>@Html.ActionLink("Products", "Index", "Product", new { }, new { @class = "linkStyle" })</li>
+				<li>@Html.ActionLink("Comparisons", "Index", "Comparisons", new { }, new { @class = "linkStyle" })</li>
+				<li>@Html.ActionLink("Shop", "Index", "Shop", new { }, new { @class = "linkStyle" })</li>
+				<li>@Html.ActionLink("Invest", "Index", "Investors", new { }, new { @class = "linkStyle" })</li>
+				<li>@Html.ActionLink("About Us", "Index", "AboutUs", new { }, new { @class = "linkStyle" })</li>
+				<li>@Html.ActionLink("Coming Soon", "Index", "ComingSoon", new { }, new { @class = "linkStyle" })</li>
+			</ul>
+		</nav>
+		<div id="outlineBox">
 
-		<div class="innerBox">
-			@RenderBody()
+			<div class="innerBox">
+				@RenderBody()
 
-			@Scripts.Render("~/bundles/jquery")
-			@RenderSection("scripts", required: false)
+				@Scripts.Render("~/bundles/jquery")
+				@RenderSection("scripts", required: false)
+			</div>
 
-			
+            <footer>
+                <div class="footerTop">
+                    <span class="contact">
+                    @Html.ActionLink("Contact Us", "Index", "Contact")
+                    </span> | 
+                    <span class="social">
+                    <a href="http://www.neumont.edu/"><i class="fa fa-facebook"></i></a>
+                    <a href="http://www.neumont.edu/"><i class="fa fa-twitter"></i></a>
+                    <a href="http://www.neumont.edu/"><i class="fa fa-google-plus"></i></a>
+                    </span>
+                </div>
+                <div class="footerBottom">
+                    <span class="copyright">&copy; Squid Inc. 2014
+                    </span> | 
+                    <span class="contact">Squid Inc.
+                    25 E. South Temple, SLC, UT, 84111
+                    (801)555-7173
+                    </span>
+                </div>
+            </footer>
+
 		</div>
-
-		<footer>
-			<div class="contact">
-				Squid Inc.
-					25 East South Temple, Salt Lake City, UT, 84111
-					(801)555-7173
-					@Html.ActionLink("Contact Us", "Index", "Contact")
-				&copy; Squid Inc. 2014
-			</div>
-			<div class="social">
-				<a href="http://www.neumont.edu/"><i class="fa fa-facebook"></i></a>
-				<a href="http://www.neumont.edu/"><i class="fa fa-twitter"></i></a>
-				<a href="http://www.neumont.edu/"><i class="fa fa-google-plus"></i></a>
-			</div>
-	    </footer>
-	</div>
-	
-</body>
+	</body>
 </html>
