@@ -67,8 +67,8 @@ nav a:active {
 
 .logoPlace img
 {
-    width:85%;
-    height: 85%;
+    position: relative;
+    z-index: -1;
 }
 .SquidBody
 {
@@ -111,10 +111,9 @@ nav a:active {
     border-radius: 20px;
     border-bottom-left-radius: 60px;
 }
-.outlineBox 
+#outlineBox 
 {
     margin-left: 150px;
-    background-color: #447011;
     border: 1px solid;
     border-radius: 10px;
 }
@@ -126,7 +125,31 @@ nav a:active {
     border-radius: 10px;
     border-bottom-left-radius: 60px;
 }
+.homeOutline 
+{
+    background-color: #ff6a00;
+}
 .aboutUsOutline 
 {
-
+    background-color: #77a5bc;
+}
+.infiniteInkOutline 
+{
+    background-color: #75ad34;
+}
+.comingSoonOutline 
+{
+    background-color: #0d394e;
+}
+.shopOutline 
+{
+    background-color: #447011;
+}
+.investorOutline 
+{
+    background-color: #295f79;
+}
+.contactOutline 
+{
+    background-color: #4d4d4d;
 }
