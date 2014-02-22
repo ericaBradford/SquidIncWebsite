@@ -1,7 +1,11 @@
 ﻿a, a:link, a:visited { text-decoration: none; }
 body
 {
-	background-color:#298851;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 960px;
+    background-image: url(/Content/img/browser_texture.jpg);
+    background-size:1300px 1100px;
 }
 nav
 {
@@ -9,10 +13,8 @@ nav
 	font-weight: 300;
 	margin: 0 auto;
 	text-align: center;
-	width: 300px;
+	width: 150px;
 	float: left;
-	color: #298851;
-	background-color:white;
 	margin-right: 20px;
 }
 nav ul
@@ -25,91 +27,106 @@ nav ul
 nav a
 {
 	display:block;
-	margin: 10px;
-	margin-left:20px;
-	margin-right:20px;
+	margin: 5px;
+	margin-left:10px;
+	margin-right:10px;
 	background-color:#5E9DBC;
-	height:50px;
-	padding-top: 25px;
-	font-size: 28px;
+	height:25px;
+	padding-top: 12px;
+	font-size: 14px;
 	color: #1A4056;
-    border: 10px solid #5E9DBC;
+    border: 5px solid #5E9DBC;
 }
 
 nav a:hover
 {
 	display:block;
-	margin: 10px;
-	margin-left:20px;
-	margin-right:20px;
+	margin: 5px;
+	margin-left:10px;
+	margin-right:10px;
 	background-color:#1A4056; 
-	height:50px;
-	padding-top: 25px;
-	font-size: 28px;
+	height:25px;
+	padding-top: 12px;
+	font-size: 14px;
 	color: #5E9DBC;
-    border: 10px solid #1A4056;
+    border: 5px solid #1A4056;
 }
 
 nav a:active {
     display:block;
-	margin: 10px;
-	margin-left:20px;
-	margin-right:20px;
+	margin: 5px;
+	margin-left:10px;
+	margin-right:10px;
 	background-color:#1A4056; 
-	height:50px;
-	padding-top: 25px;
-	font-size: 28px;
+	height:25px;
+	padding-top: 12px;
+	font-size: 14px;
 	color: #5E9DBC;
-    border: 10px solid #1A4056;
+    border: 5px solid #1A4056;
 }
 
-.logoPlace 
+.logoPlace img
 {
-    
+    width:85%;
+    height: 85%;
 }
 .SquidBody
 {
-	color:white;
-	margin-left: 320px;
+    margin-left: 20px;
 }
 .SquidBody h1
 {
-	font-size: 40px;
-	margin: 10px;
+	font-size: 20px;
+	margin: 5px;
 }
 .slideShow
 {
-    height: 400px;
-    width: 900px;
+    height: 200px;
+    width: 450px;
     background-color: #808080;
 }
 .blot1 
 {
-    position: absolute;
-    left: 350px;
-    top: 425px;
-    width: 200px;
-    height: 200px;
-    background-image: 
+   background-image: url(/Content/img/ink_1.png);
+   background-size:150px 150px;
+   background-repeat: no-repeat;
+   position: relative;
+   top: -50px;
+   left: -20px;
+   width: 150px;
+   height: 150px;
 }
 
 .blot2 
 {
-    position: absolute;
-    left: 1000px;
-    top: 550px;
-    width: 300px;
-    height: 300px;
-    background-color: #0026ff;
+    
 }
 
 .spacing 
 {
-    height: 300px;
+    height: 150px;
 }
 .linkStyle
 {
     border-radius: 20px;
     border-bottom-left-radius: 60px;
 }
+.outlineBox 
+{
+    margin-left: 150px;
+    background-color: #447011;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.innerBox 
+{
+    margin: 5px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-bottom-left-radius: 60px;
+}
+.aboutUsOutline 
+{
 
+}

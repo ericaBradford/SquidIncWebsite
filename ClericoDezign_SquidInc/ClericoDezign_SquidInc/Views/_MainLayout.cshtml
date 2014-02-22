@@ -13,37 +13,45 @@
 <body>
 
     <nav>
-        <div class="logoPlace">
-            @RenderSection("customLogo")
-        </div>
-        <ul class="nav-stacked">
-            <li>@Html.ActionLink("Home", "Index", "Home", new { }, new { @class = "linkStyle" })</li>
-            <li>@Html.ActionLink("About Us", "Index", "AboutUs", new { }, new { @class = "linkStyle" })</li>
-            <li>@Html.ActionLink("Infinite Ink", "Index", "InfiniteInk", new { }, new { @class = "linkStyle" })</li>
-            <li>@Html.ActionLink("Coming Soon", "Index", "ComingSoon", new { }, new { @class = "linkStyle" })</li>
-            <li>@Html.ActionLink("Shop", "Index", "Shop", new { }, new { @class = "linkStyle" })</li>
-            <li>@Html.ActionLink("Investors", "Index", "Investors", new { }, new { @class = "linkStyle" })</li>
-            <li>@Html.ActionLink("Contact Us", "Index", "Contact", new { }, new { @class = "linkStyle" })</li>
-        </ul>
-    </nav>
-    @RenderBody()
+	<div class="logoPlace">
+        @RenderSection("customLogo")
+	</div>
+	<ul class="nav-stacked">
+		<li>@Html.ActionLink("Home", "Index", "Home", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("About Us", "Index", "AboutUs", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Infinite Ink", "Index", "InfiniteInk", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Coming Soon", "Index", "ComingSoon", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Shop", "Index", "Shop", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Investors", "Index", "Investors", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Contact Us", "Index", "Contact", new { }, new { @class = "linkStyle" })</li>
+	</ul>
+</nav>
+    <div class="outlineBox">
 
-    @Scripts.Render("~/bundles/jquery")
-    @RenderSection("scripts", required: false)
+        <div class="innerBox">
+            @RenderBody()
 
-    <footer>
-        <div class="contact">
-            Squid Inc.
-                25 East South Temple, Salt Lake City, UT, 84111
-                (801)555-7173
-                @Html.ActionLink("Contact Us", "Index", "Contact")
-            &copy; Squid Inc. 2014
+            @Scripts.Render("~/bundles/jquery")
+            @RenderSection("scripts", required: false)
+
+    	    
         </div>
-        <div class="social">
-            <a href="http://www.neumont.edu/"><i class="fa fa-facebook"></i></a>
-            <a href="http://www.neumont.edu/"><i class="fa fa-twitter"></i></a>
-            <a href="http://www.neumont.edu/"><i class="fa fa-google-plus"></i></a>
-        </div>
+
+        <footer>
+            <div class="contact">
+                Squid Inc.
+                    25 East South Temple, Salt Lake City, UT, 84111
+                    (801)555-7173
+                    @Html.ActionLink("Contact Us", "Index", "Contact")
+                &copy; Squid Inc. 2014
+            </div>
+            <div class="social">
+                <a href="http://www.neumont.edu/"><i class="fa fa-facebook"></i></a>
+                <a href="http://www.neumont.edu/"><i class="fa fa-twitter"></i></a>
+                <a href="http://www.neumont.edu/"><i class="fa fa-google-plus"></i></a>
+            </div>
     </footer>
+    </div>
+    
 </body>
 </html>
