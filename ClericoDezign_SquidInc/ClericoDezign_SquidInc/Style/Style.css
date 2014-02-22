@@ -155,3 +155,13 @@ nav a:active {
 {
     background-color: #4d4d4d;
 }
+
+footer {
+    text-align: center;
+    padding-bottom: 8px;
+    color: white;
+}
+
+    footer a {
+        color: #e1f7dc;
+    }
