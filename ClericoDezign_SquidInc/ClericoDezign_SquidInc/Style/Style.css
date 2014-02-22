@@ -1,11 +1,11 @@
 ﻿a, a:link, a:visited { text-decoration: none; }
 body
 {
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 960px;
-    background-image: url(/Content/img/browser_texture.jpg);
-    background-size:1300px 1100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 960px;
+	background-image: url(/Content/img/browser_texture.jpg);
+	background-size:1300px 1100px;
 }
 nav
 {
@@ -21,7 +21,7 @@ nav ul
 {
 	list-style-type: none;
 	margin-left: 0; 
-    padding-left: 0;
+	padding-left: 0;
 }
 
 nav a
@@ -35,7 +35,7 @@ nav a
 	padding-top: 12px;
 	font-size: 14px;
 	color: #1A4056;
-    border: 5px solid #5E9DBC;
+	border: 5px solid #5E9DBC;
 }
 
 nav a:hover
@@ -49,11 +49,11 @@ nav a:hover
 	padding-top: 12px;
 	font-size: 14px;
 	color: #5E9DBC;
-    border: 5px solid #1A4056;
+	border: 5px solid #1A4056;
 }
 
 nav a:active {
-    display:block;
+	display:block;
 	margin: 5px;
 	margin-left:10px;
 	margin-right:10px;
@@ -62,17 +62,17 @@ nav a:active {
 	padding-top: 12px;
 	font-size: 14px;
 	color: #5E9DBC;
-    border: 5px solid #1A4056;
+	border: 5px solid #1A4056;
 }
 
 .logoPlace img
 {
-    position: relative;
-    z-index: -1;
+	position: relative;
+	z-index: -1;
 }
 .SquidBody
 {
-    margin-left: 20px;
+	margin-left: 20px;
 }
 .SquidBody h1
 {
@@ -81,9 +81,9 @@ nav a:active {
 }
 .slideShow
 {
-    height: 200px;
-    width: 450px;
-    background-color: #808080;
+	height: 200px;
+	width: 450px;
+	background-color: #808080;
 }
 .blot1 
 {
@@ -99,57 +99,57 @@ nav a:active {
 
 .blot2 
 {
-    
+	
 }
 
 .spacing 
 {
-    height: 150px;
+	height: 150px;
 }
 .linkStyle
 {
-    border-radius: 20px;
-    border-bottom-left-radius: 60px;
+	border-radius: 20px;
+	border-bottom-left-radius: 60px;
 }
 #outlineBox 
 {
-    margin-left: 150px;
-    border: 1px solid;
-    border-radius: 10px;
+	margin-left: 150px;
+	border: 1px solid;
+	border-radius: 10px;
 }
 .innerBox 
 {
-    margin: 5px;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 10px;
-    border-bottom-left-radius: 60px;
+	margin: 5px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 10px;
+	border-bottom-left-radius: 60px;
 }
 .homeOutline 
 {
-    background-color: #ff6a00;
+	background-color: #ff6a00;
 }
 .aboutUsOutline 
 {
-    background-color: #77a5bc;
+	background-color: #295f79;
 }
-.infiniteInkOutline 
+.comparisonsOutline 
 {
-    background-color: #75ad34;
+	background-color: #75ad34;
 }
 .comingSoonOutline 
 {
-    background-color: #0d394e;
+	background-color: #0d394e;
 }
 .shopOutline 
 {
-    background-color: #447011;
+	background-color: #447011;
 }
 .investorOutline 
 {
-    background-color: #295f79;
+	background-color: #77a5bc; 
 }
-.contactOutline 
+.productsOutline 
 {
-    background-color: #4d4d4d;
+	background-color: #a2d666;
 }

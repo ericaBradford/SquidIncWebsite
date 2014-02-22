@@ -1,57 +1,57 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    @Scripts.Render("~/Content/js")
-    @Scripts.Render("~/bundles/modernizr")
-    <link rel="stylesheet" type="text/css" href="~/Style/Style.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>@ViewBag.Title</title>
+	@Styles.Render("~/Content/css")
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	@Scripts.Render("~/Content/js")
+	@Scripts.Render("~/bundles/modernizr")
+	<link rel="stylesheet" type="text/css" href="~/Style/Style.css" />
 </head>
 <body>
 
-    <nav>
+	<nav>
 	<div class="logoPlace">
-        @RenderSection("customLogo")
+		@RenderSection("customLogo")
 	</div>
 	<ul class="nav-stacked">
 		<li>@Html.ActionLink("Home", "Index", "Home", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("About Us", "Index", "AboutUs", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("Infinite Ink", "Index", "InfiniteInk", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("Coming Soon", "Index", "ComingSoon", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Products", "Index", "Product", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Comparisons", "Index", "Comparisons", new { }, new { @class = "linkStyle" })</li>
 		<li>@Html.ActionLink("Shop", "Index", "Shop", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("Investors", "Index", "Investors", new { }, new { @class = "linkStyle" })</li>
-		<li>@Html.ActionLink("Contact Us", "Index", "Contact", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Invest", "Index", "Investors", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("About Us", "Index", "AboutUs", new { }, new { @class = "linkStyle" })</li>
+		<li>@Html.ActionLink("Coming Soon", "Index", "ComingSoon", new { }, new { @class = "linkStyle" })</li>
 	</ul>
 </nav>
-    <div id="outlineBox">
+	<div id="outlineBox">
 
-        <div class="innerBox">
-            @RenderBody()
+		<div class="innerBox">
+			@RenderBody()
 
-            @Scripts.Render("~/bundles/jquery")
-            @RenderSection("scripts", required: false)
+			@Scripts.Render("~/bundles/jquery")
+			@RenderSection("scripts", required: false)
 
-    	    
-        </div>
+			
+		</div>
 
-        <footer>
-            <div class="contact">
-                Squid Inc.
-                    25 East South Temple, Salt Lake City, UT, 84111
-                    (801)555-7173
-                    @Html.ActionLink("Contact Us", "Index", "Contact")
-                &copy; Squid Inc. 2014
-            </div>
-            <div class="social">
-                <a href="http://www.neumont.edu/"><i class="fa fa-facebook"></i></a>
-                <a href="http://www.neumont.edu/"><i class="fa fa-twitter"></i></a>
-                <a href="http://www.neumont.edu/"><i class="fa fa-google-plus"></i></a>
-            </div>
-    </footer>
-    </div>
-    
+		<footer>
+			<div class="contact">
+				Squid Inc.
+					25 East South Temple, Salt Lake City, UT, 84111
+					(801)555-7173
+					@Html.ActionLink("Contact Us", "Index", "Contact")
+				&copy; Squid Inc. 2014
+			</div>
+			<div class="social">
+				<a href="http://www.neumont.edu/"><i class="fa fa-facebook"></i></a>
+				<a href="http://www.neumont.edu/"><i class="fa fa-twitter"></i></a>
+				<a href="http://www.neumont.edu/"><i class="fa fa-google-plus"></i></a>
+			</div>
+	    </footer>
+	</div>
+	
 </body>
 </html>

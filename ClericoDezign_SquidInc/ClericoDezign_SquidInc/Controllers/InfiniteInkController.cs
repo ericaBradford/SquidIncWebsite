@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ClericoDezign_SquidInc.Controllers
 {
-    public class InfiniteInkController : Controller
+    public class ComparisonsController : Controller
     {
         //
         // GET: /InfiniteInk/
