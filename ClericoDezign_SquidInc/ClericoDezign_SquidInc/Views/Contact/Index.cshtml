@@ -1,13 +1,51 @@
-﻿@{
+﻿
+@{
 	ViewBag.Title = "Index";
 }
 
 @section customLogo{
-		<img src="~/Content/img/logo_home.png" />
+		<img src="~/Content/img/logo_contact.png" />
 }
 
+<script>
+    document.getElementById("outlineBox").className = "contactOutline";
+</script>
+
 <section class="SquidBody">
-	<h1>Generic Title</h1>
-	<p>Generic text</p>
-	<div class="spacing"></div>
+	
+	<!-- Form -->
+	<form id="contact-form" action="/" method="post">
+		<h3>Be Notified When We Launch!</h3>
+		<h4>Fill out the form below, and we'll add you to our list, or if you have a question, we'll reply as soon as possible.</h4>
+		<div>
+			<label>
+				<span>Name: (required)</span>
+				<input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+			</label>
+		</div>
+		<div>
+			<label>
+				<span>Email: (required)</span>
+				<input placeholder="Please enter your email address" type="email" tabindex="2" required>
+			</label>
+		</div>
+		<div>
+			<label>
+				<span>Telephone: (required)</span>
+				<input placeholder="Please enter your number" type="tel" tabindex="3" required>
+			</label>
+		</div>
+		<div>
+			<label>
+				<span>Message: (required)</span>
+				<textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+			</label>
+		</div>
+		<div>
+			<button name="submit" type="submit" id="contact-submit">Send Email</button>
+		</div>
+	</form>
+	<!-- /Form -->
+
+	<script src="js/scripts.js"></script>
 </section>
