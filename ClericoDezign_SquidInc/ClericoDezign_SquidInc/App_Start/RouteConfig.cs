@@ -22,16 +22,25 @@ namespace ClericoDezign_SquidInc
             );
 
             routes.MapRoute(
-              name: "404-PageNotFound",
-              url: "{*catchall}",
-              defaults: new { controller = "Home", action = "Error", id = UrlParameter.Optional }
+            name: "CatchExtra",
+            url: "{controller}/{action}/{id}/{*catchall}",
+            defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
+
+
+            //Errors
+
+            routes.MapRoute(
+              name: "Error",
+              url: "Error/{errorCode}",
+              defaults: new { controller = "Home", action = "Error", errorCode = UrlParameter.Optional }
             );
 
             routes.MapRoute(
-              name: "CatchExtra",
-              url: "{controller}/{action}/{id}/{*catchall}",
-              defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-              );
+              name: "Error2",
+              url: "{*catchall}",
+              defaults: new { controller = "Home", action = "Error", errorCode = UrlParameter.Optional }
+            );
         }
     }
 }

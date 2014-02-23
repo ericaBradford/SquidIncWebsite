@@ -16,22 +16,41 @@ namespace ClericoDezign_SquidInc.Controllers
 
         public ActionResult Error(string errorMessage = "")
         {
-            return View("Error", (object)errorMessage);
+            int code = 0;
+            int.TryParse(errorMessage, out code);
+
+            switch (code)
+            {
+                case 403:
+                    return View("Error", "403 Forbidden");
+                case 404:
+                    return View("Error", "404 Page Not Found");
+                case 500:
+                    return View("Error", "500 Internal Server Error");
+                default:
+                    return View("Error");
+
+            }
         }
 
-        public ActionResult PageNotFound()
+        public ActionResult Test403()
         {
-            return RedirectToAction("Error", "Page Not Found");
-        }
-
-        public ActionResult TestError()
-        {
-            return Error();
+            return new HttpStatusCodeResult(403);
         }
 
         public ActionResult Test404()
         {
-            return Redirect("PageNotFound");
+            return new HttpStatusCodeResult(404);
+        }
+
+        public ActionResult Test500()
+        {
+            return new HttpStatusCodeResult(500);
+        }
+
+        public ActionResult TestGeneralError()
+        {
+            return Error();
         }
 
     }
