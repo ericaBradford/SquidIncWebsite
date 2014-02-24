@@ -91,10 +91,11 @@ nav a:active {
    background-size:350px 200px;
    background-repeat: no-repeat;
    position: relative;
-   top: -70px;
+   top: 40px;
    left: -40px;
    width: 350px;
    height: 200px;
+   z-index: 100;
 }
 .slideInfo
 {
@@ -112,8 +113,8 @@ nav a:active {
 	position:relative;
 	width: 400px;
 	height: 350px;
-	top: -170px;
-	left: 230px;
+	top: -180px;
+	left: 380px;
 }
 .homeInfo 
 {
