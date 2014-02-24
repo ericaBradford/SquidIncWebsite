@@ -3,7 +3,15 @@
 }
 
 @section customLogo{
-		<img src="~/Content/img/logo_home.png" />
+    <img src="~/Content/img/logo_home.png" />
+}
+
+@section AdditionalStyleSheets{
+    <link rel="stylesheet" type="text/css" href="~/Content/css/WowSlider.css" media="screen" />
+}
+
+@section AdditionalScripts{
+    <script type="text/javascript" src="~/Content/js/jquery.js"></script>
 }
 
 <script>
@@ -12,9 +20,25 @@
 
 
 <section class="SquidBody">
-	<h1>Home</h1>
+    <h1>Home</h1>
     <div class="slideShow">
-
+        <!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+        <div id="wowslider-container1">
+            <div class="ws_images">
+                <ul>
+                    <li>
+                        <img src="~/Content/img/a_2_o.jpg" alt="green savings" id="wows1_0" /></li>
+                    <li>
+                        <img src="~/Content/img/printers_2.jpg" alt="clean printer" id="wows1_1" /></li>
+                </ul>
+            </div>
+            <span class="wsl"><a href="http://wowslider.com">Gallery Script</a> by WOWSlider.com v4.2</span>
+            <a href="#" class="ws_frame"></a>
+            <div class="ws_shadow"></div>
+        </div>
+        <script type="text/javascript" src="~Content/js/wowslider.js"></script>
+        <script type="text/javascript" src="~Content/js/script.js"></script>
+        <!-- End WOWSlider.com BODY section -->
     </div>
     <div class="blot1">
         <div class="slideInfo">
@@ -24,7 +48,11 @@
 
     <div class="blot2">
         <div class="homeInfo">
-            Launching in summer of 2014 our revolutionary printer can save your business thousands of dollars a year on printer ink alone. If you want to find out more about our printer and how it works check our [product page].  If you want to see how our printer compares to some of the highest rated printers in the industry click [here]. 
+            Launching in summer of 2014 our revolutionary printer can save your business 
+            thousands of dollars a year on printer ink alone. If you want to find out 
+            more about our printer and how it works check our @Html.ActionLink("Products Page", "Index", "Product").  
+            If you want to see how our printer compares to some of the highest rated 
+            printers in the industry click @Html.ActionLink("here","Index", "Comparisons"). 
         </div>
     </div>
     <div class="spacing"></div>
