@@ -5,9 +5,11 @@
 	<meta name="viewport" content="width=device-width" />
 	<title>@ViewBag.Title</title>
 	@Styles.Render("~/Content/css")
+    @RenderSection("AdditionalStyleSheets", false)
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	@Scripts.Render("~/Content/js")
 	@Scripts.Render("~/bundles/modernizr")
+    @RenderSection("AdditionalScripts", false)
 	<link rel="stylesheet" type="text/css" href="~/Style/Style.css" />
 </head>
 	<body>
