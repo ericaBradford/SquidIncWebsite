@@ -106,9 +106,23 @@ nav a:active {
 }
 .blot2 
 {
-	
+	background-image: url(/Content/img/ink_1.png);
+    background-size:400px 350px;
+    background-repeat: no-repeat;
+    position:relative;
+    width: 400px;
+    height: 350px;
+    top: -170px;
+    left: 230px;
 }
-
+.homeInfo 
+{
+    padding-top: 110px;
+    padding-left: 75px;
+    padding-right: 85px;
+    color: lightblue;
+    word-wrap: break-word;
+}
 .spacing 
 {
 	height: 150px;
@@ -275,4 +289,9 @@ footer a {
 }
 :-ms-input-placeholder {
     color:#888;
+}
+.CompareData 
+{
+    width: 600px;
+    height: 750px;
 }
