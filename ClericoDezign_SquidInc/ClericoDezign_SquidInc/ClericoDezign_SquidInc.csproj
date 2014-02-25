@@ -130,7 +130,6 @@
     <Compile Include="Controllers\ComingSoonController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\InfiniteInkController.cs" />
     <Compile Include="Controllers\InvestorsController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
@@ -143,6 +142,30 @@
     <Content Include="Content\css\bootstrap-responsive.css" />
     <Content Include="Content\css\bootstrap-responsive.min.css" />
     <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\img\1.png" />
+    <Content Include="Content\img\2.png" />
+    <Content Include="Content\img\3.png" />
+    <Content Include="Content\img\a_2_o.jpg" />
+    <Content Include="Content\img\browser_texture.jpg" />
+    <Content Include="Content\img\epson_stylus_nx430.jpg" />
+    <Content Include="Content\img\epson_workforce_840_aio.jpg" />
+    <Content Include="Content\img\epson_workforce_840_aio.png" />
+    <Content Include="Content\img\hp_officejet_pro_8600_plus_eallinone_printer_.jpg" />
+    <Content Include="Content\img\ink_1.png" />
+    <Content Include="Content\img\ink_2.png" />
+    <Content Include="Content\img\ink_3.png" />
+    <Content Include="Content\img\ink_4.png" />
+    <Content Include="Content\img\logo_about.png" />
+    <Content Include="Content\img\logo_coming_soon.png" />
+    <Content Include="Content\img\logo_comparisons.png" />
+    <Content Include="Content\img\logo_contact.png" />
+    <Content Include="Content\img\logo_home.png" />
+    <Content Include="Content\img\logo_invest.png" />
+    <Content Include="Content\img\logo_products.png" />
+    <Content Include="Content\img\logo_shop.png" />
+    <Content Include="Content\img\prettyData.png" />
+    <Content Include="Content\img\printers 2.jpg" />
+    <Content Include="Content\img\printers_2.jpg" />
     <Content Include="Content\js\bootstrap.js" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\js\bootstrap.min.js" />
@@ -220,6 +243,8 @@
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Style\1000.css" />
+    <Content Include="Style\800.css" />
     <Content Include="Style\Style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -243,6 +268,7 @@
     <Content Include="Views\Investors\Index.cshtml" />
     <Content Include="Views\ComingSoon\Index.cshtml" />
     <Content Include="Views\Home\Error.cshtml" />
+    <Content Include="Views\Comparisons\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
