@@ -74,21 +74,29 @@ nav a:active {
 	position: relative;
 	z-index: -1;
 }
+
 .SquidBody
 {
 	margin-left: 20px;
 }
+
 .SquidBody h1
 {
 	font-size: 20px;
 	margin: 5px;
 }
+
 .slideShow
 {
 	height: 200px;
 	width: 450px;
 	background-color: #808080;
 }
+
+#wowslider-container1 {
+    border: 1px solid #fff;
+}
+
 .blot1 
 {
    background-image: url(/Content/img/ink_3.png);
