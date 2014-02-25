@@ -2,6 +2,11 @@
     width: 80%;
 }
 
+.logoPlace img {
+    width: 110%;
+    height: auto;
+}
+
 .squidBody {
     width: 100%;
     height: auto;
