@@ -833,6 +833,7 @@ jQuery.fn.wowSlider = function (D) {
                 ap.parent().replaceWith(ap);
                 if (at.complete) {
                     at.complete()
+                    
                 }
             }
         })

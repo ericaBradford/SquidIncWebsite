@@ -72,6 +72,7 @@ nav a:active {
 .logoPlace img
 {
 	position: relative;
+    right: 60px;
 	z-index: -1;
 }
 .SquidBody
@@ -95,7 +96,7 @@ nav a:active {
    background-size:350px 200px;
    background-repeat: no-repeat;
    position: relative;
-   top: 40px;
+   top: 70px;
    left: -80px;
    width: 350px;
    height: 200px;
