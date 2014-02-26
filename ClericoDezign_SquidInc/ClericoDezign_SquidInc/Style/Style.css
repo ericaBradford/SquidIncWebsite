@@ -100,6 +100,10 @@ nav a:active {
     text-justify: inter-word;
 }
 
+.homeBody {
+    height: 680px !important;
+}
+
 #slideshow {
     position:relative;
     height:350px;
@@ -218,10 +222,27 @@ nav a:active {
 {
 	background-color: #77a5bc; 
 }
+
+    .investorOutline footer {
+        color: black;
+    }
+
+        .investorOutline footer a {
+            color: #1e1b1b;
+        }
+
 .productsOutline 
 {
 	background-color: #a2d666;
 }
+
+    .productsOutline footer {
+        color: black;
+    }
+
+        .productsOutline footer a {
+            color: #1e1b1b;
+        }
 
 footer {
 	text-align: center;
