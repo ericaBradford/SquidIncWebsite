@@ -14,34 +14,43 @@
     <script type="text/javascript" src="~/Content/js/jquery.js"></script>
 }
 
-<script>
+<script  type="text/javascript">
     document.getElementById("outlineBox").className = "homeOutline";
+
+    function slideSwitch() {
+        var $active = $('#slideshow IMG.active');
+
+        if ($active.length == 0) $active = $('#slideshow IMG:last');
+
+        // use this to pull the images in the order they appear in the markup
+        var $next = $active.next().length ? $active.next()
+            : $('#slideshow IMG:first');
+
+        $active.addClass('last-active');
+
+        $next.css({ opacity: 0.0 })
+            .addClass('active')
+            .animate({ opacity: 1.0 }, 1000, function () {
+                $active.removeClass('active last-active');
+            });
+    }
+
+    $(function () {
+        setInterval("slideSwitch()", 5000);
+    });
 </script>
 
 
 <section class="SquidBody">
-    <div class="slideShow">
-        <!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
-        <div id="wowslider-container1">
-            <div class="ws_images">
-                <ul>
-                    <li>
-                        <img src="~/Content/img/a_2_o.jpg" alt="green savings" id="wows1_0" />asdagaf</li>
-                    <li>
-                        <img src="~/Content/img/printers_2.jpg" alt="clean printer" id="wows1_1" />fucking magical</li>
-                </ul>
-            </div>
-            <span class="wsl"><a href="http://wowslider.com">Gallery Script</a> by WOWSlider.com v4.2</span>
-            <a href="#" class="ws_frame"></a>
-            <div class="ws_shadow"></div>
-        </div>
-        <script type="text/javascript" src="~Content/js/wowslider.js"></script>
-        <script type="text/javascript" src="~Content/js/script.js"></script>
-        <!-- End WOWSlider.com BODY section -->
+    <div class="tagLine">
+        <img src="~/Content/img/tagline.png" />
+    </div>
+    <div id="slideshow">
+        <img src="~/Content/img/a_2_o.jpg" alt="Slideshow Image 1" class="active" />
+        <img src="~/Content/img/printers 2.jpg" alt="Slideshow Image 2" />
     </div>
     <div class="blot1">
-        <div class="slideInfo">
-        </div>
+        
     </div>
 
     <div class="blot2">
@@ -53,5 +62,4 @@
             printers in the industry click @Html.ActionLink("here","Index", "Comparisons"). 
         </div>
     </div>
-    <div class="spacing"></div>
 </section>

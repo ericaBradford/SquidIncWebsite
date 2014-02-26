@@ -100,15 +100,30 @@ nav a:active {
     text-justify: inter-word;
 }
 
-.slideShow
-{
-	height: 200px;
-	width: 450px;
-	background-color: #808080;
+#slideshow {
+    position:relative;
+    height:350px;
 }
 
-#wowslider-container1 {
-    border: 1px solid #fff;
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    width:400px;
+    height: 300px;
+}
+
+    #slideshow IMG.active {
+        z-index: 10;
+        opacity: 1.0;
+    }
+.tagLine img
+{
+    float:right;
+    width: 300px;
+    height:300px;
 }
 
 .blot1 
@@ -117,7 +132,7 @@ nav a:active {
    background-size:350px 200px;
    background-repeat: no-repeat;
    position: relative;
-   top: 70px;
+   top: -100px;
    left: -80px;
    width: 350px;
    height: 200px;
@@ -139,7 +154,7 @@ nav a:active {
 	position:relative;
 	width: 400px;
 	height: 350px;
-	top: -180px;
+	top: -250px;
 	left: 380px;
 }
 .homeInfo 
@@ -177,7 +192,7 @@ nav a:active {
 	border: 1px solid white;
 	border-radius: 10px;
 	border-bottom-left-radius: 60px;
-	height: 625px;
+	
 }
 .homeOutline 
 {
@@ -401,4 +416,20 @@ footer a {
 .comparisonImage {
     margin-top: 75px;
     margin-left: 75px;
+}
+.fullCEO 
+{
+    height: 206px;
+    margin-bottom: 20px;
+}
+.ceoInfo 
+{
+    margin-left: 156px;
+}
+
+.ceoPic img
+{
+    width: 20%;
+    height: 20%;
+    float: left;
 }
