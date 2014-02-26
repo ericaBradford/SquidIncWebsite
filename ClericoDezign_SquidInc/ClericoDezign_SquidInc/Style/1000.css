@@ -1,3 +1,45 @@
 ﻿body {
     width: 80%;
 }
+
+.logoPlace img {
+    width: 110%;
+    height: auto;
+}
+
+.squidBody {
+    width: 100%;
+    height: auto;
+}
+
+.blot2 {
+    top: 0;
+    left: 10%;
+}
+
+#innerBox {
+    height:auto;
+    margin-bottom: 0px;
+}
+
+.spacing {
+    height: 0;
+}
+
+.squidBody img {
+    width: 80%;
+    height: auto;
+}
+
+.image {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.shopItem {
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
