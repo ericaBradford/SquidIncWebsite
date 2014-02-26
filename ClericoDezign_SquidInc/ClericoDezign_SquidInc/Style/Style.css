@@ -121,6 +121,7 @@ nav a:active {
 #slideshow {
     position:relative;
     height:350px;
+    margin-top: 20px;
 }
 
 #slideshow IMG {
@@ -184,7 +185,7 @@ nav a:active {
 }
 .blot2 
 {
-	background-image: url(/Content/img/ink_1.png);
+	background-image: url(/Content/img/ink_1_darkblue.png);
 	background-size:400px 350px;
 	background-repeat: no-repeat;
 	position:relative;
@@ -390,6 +391,11 @@ footer a {
 :-ms-input-placeholder {
 	color:#888;
 }
+
+.compareDataBody {
+    height : 400px;
+}
+
 .CompareData 
 {
 	width: 600px;
@@ -400,7 +406,7 @@ footer a {
 
 .compareDataBody 
 {
-    height: 820px !important;
+    height: 660px;
 }
 
 .shopItem {
@@ -468,9 +474,10 @@ footer a {
 }
 
 .comparisonImage {
-    margin-top: 75px;
+    margin-top: 10px;
     margin-left: 75px;
 }
+
 .fullCEO 
 {
     height: 206px;
@@ -486,4 +493,8 @@ footer a {
     width: 20%;
     height: 20%;
     float: left;
+}
+.fix 
+{
+    margin-bottom: 10px;
 }
