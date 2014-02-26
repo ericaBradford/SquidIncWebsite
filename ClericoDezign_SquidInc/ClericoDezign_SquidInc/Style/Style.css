@@ -382,6 +382,11 @@ footer a {
 :-ms-input-placeholder {
 	color:#888;
 }
+
+.compareDataBody {
+    height : 400px;
+}
+
 .CompareData 
 {
 	width: 600px;
@@ -460,9 +465,10 @@ footer a {
 }
 
 .comparisonImage {
-    margin-top: 75px;
+    margin-top: 10px;
     margin-left: 75px;
 }
+
 .fullCEO 
 {
     height: 206px;
