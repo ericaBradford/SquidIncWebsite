@@ -28,6 +28,10 @@
     height : 50% !important;
 }
 
+.tagLine img {
+    display: none;
+}
+
 .spacing {
     height: 0;
 }
