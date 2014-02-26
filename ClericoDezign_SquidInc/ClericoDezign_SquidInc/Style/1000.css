@@ -21,7 +21,10 @@
 #innerBox {
     height:auto;
     margin-bottom: 0px;
-    overflow: hidden;
+}
+
+.homeBody {
+    padding-bottom: 40px;
 }
 
 .compareDataBody {
