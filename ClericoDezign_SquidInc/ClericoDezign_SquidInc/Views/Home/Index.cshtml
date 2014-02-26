@@ -19,19 +19,31 @@
 
     function slideSwitch() {
         var $active = $('#slideshow IMG.active');
+        var $caption = $('.blot1 IMG.activate');
 
         if ($active.length == 0) $active = $('#slideshow IMG:last');
+        if ($caption.length == 0) $caption = $('.blot1 IMG:last');
 
         // use this to pull the images in the order they appear in the markup
         var $next = $active.next().length ? $active.next()
             : $('#slideshow IMG:first');
 
+        var $nextOne = $caption.next().length ? $caption.next()
+            : $('.blot1 IMG:first');
+
         $active.addClass('last-active');
+        $caption.addClass('last-activate');
 
         $next.css({ opacity: 0.0 })
             .addClass('active')
             .animate({ opacity: 1.0 }, 1000, function () {
                 $active.removeClass('active last-active');
+            });
+
+        $nextOne.css({ opacity: 0.0 })
+            .addClass('activate')
+            .animate({ opacity: 1.0 }, 1000, function () {
+                $caption.removeClass('activate last-activate');
             });
     }
 
@@ -50,7 +62,8 @@
         <img src="~/Content/img/printers 2.jpg" alt="Slideshow Image 2" />
     </div>
     <div class="blot1">
-        
+        <img src="~/Content/img/inkBlotFirst.png" class="activate"/>
+        <img src="~/Content/img/inkBlotSecond.png" />
     </div>
 
     <div class="blot2">
