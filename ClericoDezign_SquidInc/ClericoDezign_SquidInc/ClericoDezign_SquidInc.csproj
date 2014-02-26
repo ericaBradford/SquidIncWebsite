@@ -148,6 +148,7 @@
     <Content Include="Content\img\3.png" />
     <Content Include="Content\img\a_2_o.jpg" />
     <Content Include="Content\img\browser_texture.jpg" />
+    <Content Include="Content\img\colorInk.jpg" />
     <Content Include="Content\img\epson_stylus_nx430.jpg" />
     <Content Include="Content\img\epson_workforce_840_aio.jpg" />
     <Content Include="Content\img\epson_workforce_840_aio.png" />
@@ -164,9 +165,13 @@
     <Content Include="Content\img\logo_invest.png" />
     <Content Include="Content\img\logo_products.png" />
     <Content Include="Content\img\logo_shop.png" />
+    <Content Include="Content\img\mini keyboard.jpg" />
+    <Content Include="Content\img\pen.jpg" />
     <Content Include="Content\img\prettyData.png" />
     <Content Include="Content\img\printers 2.jpg" />
     <Content Include="Content\img\printers_2.jpg" />
+    <Content Include="Content\img\smartphone.jpg" />
+    <Content Include="Content\img\touch_screen.jpg" />
     <Content Include="Content\js\bootstrap.js" />
     <Content Include="Content\css\bootstrap.min.css" />
     <Content Include="Content\js\bootstrap.min.js" />
