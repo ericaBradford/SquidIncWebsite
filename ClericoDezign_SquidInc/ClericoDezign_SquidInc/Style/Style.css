@@ -124,10 +124,15 @@ nav a:active {
     height: 300px;
 }
 
-    #slideshow IMG.active {
-        z-index: 10;
-        opacity: 1.0;
-    }
+#slideshow IMG.active 
+{
+    z-index: 10;
+    opacity: 1.0;
+}
+#slideshow IMG.last-active 
+{
+    z-index:9;
+}
 .tagLine img
 {
     float:right;
@@ -137,15 +142,28 @@ nav a:active {
 
 .blot1 
 {
-   background-image: url(/Content/img/ink_3.png);
-   background-size:350px 200px;
-   background-repeat: no-repeat;
    position: relative;
    top: -100px;
    left: -80px;
+   z-index: 20;
+}
+.blot1 IMG 
+{
+    position: absolute;
+    top: 0;
+    left:0;
    width: 350px;
    height: 200px;
    z-index: 20;
+   opacity: 0.0;
+}
+.blot1 IMG.activate
+{
+    z-index: 21;
+    opacity: 1.0;
+}
+.blot1 IMG.last-activate {
+    z-index:19;
 }
 .slideInfo
 {
@@ -163,7 +181,7 @@ nav a:active {
 	position:relative;
 	width: 400px;
 	height: 350px;
-	top: -250px;
+    top: -80px;
 	left: 380px;
 }
 .homeInfo 
