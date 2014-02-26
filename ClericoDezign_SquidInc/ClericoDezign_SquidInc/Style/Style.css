@@ -8,12 +8,12 @@ body
 	background-size:1300px 1100px;
     font-family: Lato, sans-serif;
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: 300;
 }
 nav
 {
 	font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-weight: 700;
 	margin: 0 auto;
 	text-align: center;
 	width: 150px;
@@ -79,12 +79,25 @@ nav a:active {
 .SquidBody
 {
 	margin-left: 20px;
+    margin-right: 20px;
 }
 
 .SquidBody h1
 {
 	font-size: 20px;
 	margin: 5px;
+}
+
+.SquidBody h3 {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 38px;
+    font-weight: 200;
+    margin-bottom: -25px;
+}
+
+.SquidBody p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .slideShow
@@ -361,10 +374,10 @@ footer a {
 
 .shopItem p{
     color: #447011;
-
     margin: 0px;
     text-align:center;
     margin-top: -20px;
+    font-weight: 400;
 }
 
 .shopItem h3{
@@ -383,4 +396,9 @@ footer a {
 	font-weight: 900;
     font-size: 60px;
     text-align: center;
+}
+
+.comparisonImage {
+    margin-top: 75px;
+    margin-left: 75px;
 }
