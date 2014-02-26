@@ -92,7 +92,12 @@ nav a:active {
     font-family: 'Just Another Hand', cursive;
     font-size: 38px;
     font-weight: 200;
+    margin-top: 0px;
     margin-bottom: -25px;
+}
+
+.SquidBody h4 {
+    margin-top: -10px;
 }
 
 .SquidBody p {
@@ -398,6 +403,7 @@ footer a {
     border-radius: 10px;
     border-bottom-left-radius: 60px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .shopItem img {
