@@ -512,11 +512,11 @@ footer {
 
 .comingSoonLeftText {
     float: left;
+    margin-right: 20px;
 }
 
 .comingSoonRightText {
     float: right;
-    margin-right: 30px;
 }
 
 .comingSoonImage {
