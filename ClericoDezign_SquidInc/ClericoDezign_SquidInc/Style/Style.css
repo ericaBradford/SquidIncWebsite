@@ -10,8 +10,8 @@ body {
     background-size: 1300px 1100px;
     font-family: Lato, sans-serif;
     font-size: 14px;
-    font-weight: 300;
-    background-repeat: no-repeat;
+    font-weight: 500;
+    background-repeat: repeat-x;
 }
 
 nav {
