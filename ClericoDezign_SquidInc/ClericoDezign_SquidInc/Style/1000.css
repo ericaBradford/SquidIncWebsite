@@ -21,7 +21,10 @@
 #innerBox {
     height:auto;
     margin-bottom: 0px;
-    overflow: hidden;
+}
+
+.homeBody {
+    padding-bottom: 40px;
 }
 
 .compareDataBody {
@@ -52,4 +55,30 @@
     width: auto;
     height: auto;
     margin: 5px;
+}
+
+.comingSoonLeftImage {
+    width: 40%;
+}
+
+.comingSoonRightImage {
+    width: 30%;
+}
+
+.comingSoonImage {
+    width: 80%;
+    margin-left: 10px;
+}
+
+.comingSoonLeftText {
+    margin-right: 5px;
+}
+
+.comingSoonInline {
+    height: 50% !important;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
