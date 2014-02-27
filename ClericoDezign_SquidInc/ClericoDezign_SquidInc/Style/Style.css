@@ -533,7 +533,8 @@ footer {
 
 .comingSoonImage {
     display: block;
-    margin-left: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .comingSoonLeftImage {
@@ -550,7 +551,7 @@ footer {
 }
 
 .comingSoonInline {
-    height: 650px !important;
+    height: 700px !important;
 }
 
 .leftColumn {
@@ -566,4 +567,5 @@ footer {
 .center{
     margin-left: 200px;
     width: 50%;
+    margin-bottom: 15px;
 }
