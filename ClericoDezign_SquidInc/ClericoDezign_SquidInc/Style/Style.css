@@ -558,6 +558,20 @@ footer {
     float: left;
     width: 48%;
 }
+.investPic 
+{
+    float: right;
+    width: 20%;
+    height: 20%;
+    margin: 10px;
+}
+.investBody
+{
+    height: 140px;
+}
+.investHeading {
+    margin-bottom: 5px !important;
+}
 
 .rightColumn {
     float: right;
@@ -567,5 +581,4 @@ footer {
 .center{
     margin-left: 200px;
     width: 50%;
-    margin-bottom: 15px;
 }
